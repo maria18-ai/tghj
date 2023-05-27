@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+main {
+    background-color:#CFC0C5 ;
+    text-align: center;
+    border-radius: 10px;
+    height: fit-content;
+    width: 80%;
+    max-width: 888px;
+    padding: 20px;
+}
+
+#mensage::before {
+  content: "\2606";
+}
+
+#mensage {
+  text-decoration: none;
+  color: black;
+}
+
+#mensage2 {
+  text-decoration: none;
+  color: black;
+}
+
+#mensage2::before {
+  content: "\2606";
+}

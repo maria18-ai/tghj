@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="
+    " type="image/x-icon">
+    <link rel="stylesheet" href="style02.css">
+    <script>
+        function verificarResposta() {
+            var resposta = document.getElementById("resposta").value;
+
+            if (resposta == "01/10") {
+                window.location.href = "pag04.html"
+            } else {
+                alert ("MENTIROSO VC NÃO É MEU JC!!!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <section>
+   <h1>Você é realmente MEU jaozinho??</h1> 
+   <p>Então responda corretamente uma pergunta intima que so o joaozinho saberia:</p>
+
+   <label for="Resposta:">Qual a data que escolhemos para comemorar nossos aniversarios de namoro??</label>
+   <input type="text" id="resposta">
+   <button onclick="verificarResposta()">Responder</button>
+       </section>
+
+</main>
+</body>
+</html>
