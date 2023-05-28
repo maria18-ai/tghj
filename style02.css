@@ -3,9 +3,13 @@
 html, body {
     height: 100%;
     margin: 0;
-    display: flex;
+    display: 
+    
+    
+    flex;
     justify-content: center;
-    align-items: center;
+    align-items: 
+    center;
     width: 740px;
     font-family: 'Times New Roman', Times, serif;
     
@@ -13,10 +17,12 @@ html, body {
 
 main {
     background-color:#CFC0C5 ;
-    text-align: center;
+    text-align:
+     center;
     border-radius: 10px;
     height: fit-content;
     width: 80%;
+
     max-width: 888px;
     padding: 20px;
     margin: 0 auto;
