@@ -26,14 +26,18 @@ main {
 
 #mensage {
   text-decoration: none;
-  color: black;
+  color: #926775;
 }
 
 #mensage2 {
   text-decoration: none;
-  color: black;
+  color: #926775;
 }
 
 #mensage2::before {
   content: "\2606";
+}
+
+p, h1 {
+  color: #926775;
 }
