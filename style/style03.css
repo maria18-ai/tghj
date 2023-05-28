@@ -5,17 +5,68 @@ html , body {
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
-    text-align: center;
     background-image: linear-gradient(to right, #F2E8DF, #F2C6C2);
     color: #91707b;
     font-size: large;
 }
 
-.polaroid {
-    padding-top: 1%;
-    padding-right: 1%;
-    padding-bottom: 5%;
-    padding-left: 1%;
+.apresentacao{
+    text-align:center;
+}
+.container-polaroids{
+    display: inline-block;
+}
+.container-imagem{
+    margin-left: 5%;
+    display: inline-block;
+    padding-top: 10px;
+    text-align:center;
+    width: 200px;
+    height: 300px;
     background-color: white;
 }
+.polaroid{
+    width: 180px;
+    height: 250px;
+}
 
+.container-opa{
+    display: inline-block;
+    width: 150px;
+    height: 38px;
+    background: white;
+    border: none;
+    border-radius: 22px;
+    text-align:center;
+    vertical-align: top;
+}
+.test{
+    margin-top: 5%;
+}
+
+.container-imagem1{
+    display: inline-block;
+    padding-top: 10px;
+    text-align:center;
+    width: 200px;
+    height: 300px;
+    margin-left: 15%;
+    background-color: white;
+}
+.polaroid1{
+    width: 180px;
+    height: 250px;
+}
+.container-imagem2{
+    display: inline-block;
+    padding-top: 10px;
+    text-align:center;
+    width: 200px;
+    height: 300px;
+    margin-left: 15%;
+    background-color: white;
+}
+.polaroid2{
+    width: 180px;
+    height: 250px;
+}
