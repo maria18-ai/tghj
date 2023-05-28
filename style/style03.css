@@ -12,9 +12,6 @@ html , body {
 }
 
 .polaroid {
-    top: 20px;
-    right: 20px;
-    position: fixed;
     padding-top: 1%;
     padding-right: 1%;
     padding-bottom: 5%;
