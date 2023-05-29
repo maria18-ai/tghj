@@ -5,7 +5,7 @@ html , body {
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
-    background-image: linear-gradient(to right, #F2E8DF, #F2C6C2);
+    background-color: #faf0f4;;
     color: #91707b;
     font-size: large;
 }
@@ -17,32 +17,20 @@ html , body {
     display: inline-block;
 }
 .container-imagem{
-    margin-left: 5%;
+    margin-left: 15%;
     display: inline-block;
     padding-top: 10px;
     text-align:center;
     width: 200px;
     height: 300px;
     background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .polaroid{
     width: 180px;
     height: 250px;
 }
 
-.container-opa{
-    display: inline-block;
-    width: 150px;
-    height: 38px;
-    background: white;
-    border: none;
-    border-radius: 22px;
-    text-align:center;
-    vertical-align: top;
-}
-.test{
-    margin-top: 5%;
-}
 
 .container-imagem1{
     display: inline-block;
@@ -52,10 +40,12 @@ html , body {
     height: 300px;
     margin-left: 15%;
     background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .polaroid1{
     width: 180px;
     height: 250px;
+   
 }
 .container-imagem2{
     display: inline-block;
@@ -65,8 +55,18 @@ html , body {
     height: 300px;
     margin-left: 15%;
     background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 .polaroid2{
     width: 180px;
     height: 250px;
 }
+
+#text {
+    border-top: 5%;
+    background: white;
+    border: none;
+    border-radius: 22px;
+    text-align:center;
+}
+
